@@ -4,6 +4,7 @@ import "./assets/App.css";
 import CartillaPago from "./content/components/CartillaPagos.jsx";
 import AlbumDiseño from "./content/components/Album.jsx";
 import SplasScreenApp from "./content/components/SplashScreen";
+import Inicio from "./content/pages/Inicio.jsx";
 
 function App() {
   const [cargando, setCargando] = useState(true);
@@ -20,7 +21,9 @@ setTimeout(()=>setCargando(false),  3000);
   return <>
   {cargando ? 
   <SplasScreenApp /> : 
-  <div>Bienvenido a la app de musica macarena</div>}</>;
+  <Inicio />}
+  
+  </>;
 }
 
 export default App;
