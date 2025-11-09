@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import "./assets/App.css";
+import "./assets/css/App.css";
 import CartillaPago from "./content/components/CartillaPagos.jsx";
 import AlbumDiseño from "./content/components/Album.jsx";
 import SplasScreenApp from "./content/components/SplashScreen";

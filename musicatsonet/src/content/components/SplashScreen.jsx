@@ -1,6 +1,5 @@
 import sonet from "../../assets/img/sonet.jpg";
-import "../../assets/splash.css";
-
+import "../../assets/css/splash.css";
 
 const SplasScreenApp = () =>{
     return(

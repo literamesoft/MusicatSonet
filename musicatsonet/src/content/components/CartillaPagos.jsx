@@ -1,4 +1,4 @@
-import "../../assets/CartillaPago.css"
+import "../../assets/css/CartillaPago.css"
 
 // componente mediante function flecha
 const CartillaPago = () => {
