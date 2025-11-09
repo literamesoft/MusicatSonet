@@ -1,0 +1,13 @@
+
+.card{
+ border: 2px solid black;
+ height: 100px;
+ width: 700px;
+}
+
+.red{
+    background-color: brown;
+}
+.lila{
+    background: #ac18e2;
+}
