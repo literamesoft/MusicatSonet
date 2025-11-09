@@ -12,4 +12,9 @@
   body {
     background: #232a32;
   }
+
+  .logo {
+    height: 80px;
+    width: 80px;
+  }
 }
