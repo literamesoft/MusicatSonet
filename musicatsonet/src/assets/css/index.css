@@ -15,16 +15,14 @@ a {
 
 body {
   margin: 0;
-  
+  background: #232a32;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: #ffffff;
     background-color: #ffffff;
-    
   }
-
 }
-

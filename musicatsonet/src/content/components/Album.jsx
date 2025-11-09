@@ -4,7 +4,7 @@ const AlbumDiseño = ({ artista, AñoAlbum }) => {
   const [chocolates, setChocolates] = useState(0);
 
   useEffect(() => {
-    document.title = `Chocolate ${chocolates}`
+    document.title = `Chocolate ${chocolates}`;
   }, [chocolates]);
 
   return (

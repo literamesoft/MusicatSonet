@@ -9,21 +9,14 @@ import Inicio from "./content/pages/Inicio.jsx";
 function App() {
   const [cargando, setCargando] = useState(true);
 
-  useEffect(()=> {
-    const temporizador = setTimeout(()=>setCargando(false),  3000);
+  useEffect(() => {
+    const temporizador = setTimeout(() => setCargando(false), 3000);
     return () => clearTimeout(temporizador);
   }, []);
 
+  setTimeout(() => setCargando(false), 3000);
 
-
-setTimeout(()=>setCargando(false),  3000);
-
-  return <>
-  {cargando ? 
-  <SplasScreenApp /> : 
-  <Inicio />}
-  
-  </>;
+  return <>{cargando ? <SplasScreenApp /> : <Inicio />}</>;
 }
 
 export default App;

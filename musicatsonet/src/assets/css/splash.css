@@ -1,12 +1,11 @@
-
-.Splash{
-    background: #232a32;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.Splash {
+  background: #232a32;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.logo{
-    height: 80px;
-    width: 80px;
+.logo {
+  height: 80px;
+  width: 80px;
 }

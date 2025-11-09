@@ -1,0 +1,26 @@
+
+.contenedor-footer{
+    height: 48px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 5px;
+    left: 0;
+    background: rgba(45, 45, 45, 0.571);
+}
+
+.FooterItem{
+    display: flex;
+    width: 25%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.FooterItem:hover{
+    background: #95959570;
+}
