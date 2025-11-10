@@ -9,12 +9,17 @@ import LinkinPark from "../../assets/img/linkinpark.jpg"
 
 import "../../assets/css/Inicio.css";
 const Inicio = () => {
-   const listaColecciones = [
+   const Colecciones = [
     { titulo: "Mana", imagen: Mana },
     { titulo: "Michael Jackson", imagen: Michael },
     { titulo: "Linkin Park", imagen: LinkinPark },
   ];
 
+     const ColeccionesHit = [
+    { titulo: "Bruno Mar", imagen: Mana },
+    { titulo: "BTS", imagen: Michael },
+    { titulo: "CRO", imagen: LinkinPark },
+  ];
 
   return (
     <div>
@@ -32,10 +37,16 @@ const Inicio = () => {
      
         <CardReproduccion
           TituloColeccion="Estaciones Populares"
-          imagenColeccion={listaColecciones}
+          listaColeccion={Colecciones}
         />
 
+        <CardReproduccion  TituloColeccion="Hits Del Momento"
+          listaColeccion={ColeccionesHit}/>
 
+        <CardReproduccion  TituloColeccion="Hits Del Momento"
+          listaColeccion={ColeccionesHit}/>
+                  <CardReproduccion  TituloColeccion="Hits Del Momento"
+          listaColeccion={ColeccionesHit}/>
       </main>
 
 
