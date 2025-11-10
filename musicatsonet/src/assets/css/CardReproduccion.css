@@ -1,0 +1,39 @@
+.ctn-CardReproduccion{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+    height: 180px;
+}
+
+.ctn-CardReproduccion h2{
+    font-size: 17px;
+    margin: 0;
+    padding-bottom: 7px;
+}
+
+.ctn-item-reproduccion{
+   display: flex;
+   flex-direction: row;
+   gap: 8px;
+
+}
+
+
+
+.portada-imagen{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.img-reproduccion{
+    width: 100px;
+    height: 100px;
+}
+
+.texto-reproduccion{
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+}

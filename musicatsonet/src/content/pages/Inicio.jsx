@@ -1,6 +1,7 @@
 import Naveg from "../components/Navegacion";
 import TagsItem from "../components/TagsItem";
 import FooterBar from "../components/FooterBar";
+import CardReproduccion from "../components/CardReproduccion";
 
 import "../../assets/css/Inicio.css";
 const Inicio = () => {
@@ -16,7 +17,11 @@ const Inicio = () => {
         <TagsItem texto="Punk" />
       </section>
 
-      <main>//aqui va el contenido principal</main>
+      <main>
+        <CardReproduccion TituloColeccion={"Estaciones Populares"}/>
+         <CardReproduccion TituloColeccion={"Albumnes y Sencillos"}/>
+
+      </main>
 
       
       
@@ -25,3 +30,4 @@ const Inicio = () => {
   );
 };
 export default Inicio;
+ 
