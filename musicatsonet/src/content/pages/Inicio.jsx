@@ -3,8 +3,19 @@ import TagsItem from "../components/TagsItem";
 import FooterBar from "../components/FooterBar";
 import CardReproduccion from "../components/CardReproduccion";
 
+import Mana from "../../assets/img/mana.jfif";
+import Michael from "../../assets/img/michael.jpg";
+import LinkinPark from "../../assets/img/linkinpark.jpg"
+
 import "../../assets/css/Inicio.css";
 const Inicio = () => {
+   const listaColecciones = [
+    { titulo: "Mana", imagen: Mana },
+    { titulo: "Michael Jackson", imagen: Michael },
+    { titulo: "Linkin Park", imagen: LinkinPark },
+  ];
+
+
   return (
     <div>
       <Naveg textoCabecera="Buenos dias">
@@ -18,16 +29,19 @@ const Inicio = () => {
       </section>
 
       <main>
-        <CardReproduccion TituloColeccion={"Estaciones Populares"}/>
-         <CardReproduccion TituloColeccion={"Albumnes y Sencillos"}/>
+     
+        <CardReproduccion
+          TituloColeccion="Estaciones Populares"
+          imagenColeccion={listaColecciones}
+        />
+
 
       </main>
 
-      
-      
+
+
       <FooterBar />
     </div>
   );
 };
 export default Inicio;
- 

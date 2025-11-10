@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 100%;
     padding: 5px;
-    height: 180px;
+    height: 230px;
 }
 
 .ctn-CardReproduccion h2{
@@ -15,10 +15,9 @@
 .ctn-item-reproduccion{
    display: flex;
    flex-direction: row;
-   gap: 8px;
+   gap: 10px;
 
 }
-
 
 
 .portada-imagen{
@@ -28,12 +27,12 @@
 }
 
 .img-reproduccion{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 .texto-reproduccion{
-  font-size: 12px;
+  font-size: 17px;
   display: flex;
   justify-content: center;
 }

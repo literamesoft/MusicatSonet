@@ -1,13 +1,13 @@
 import "../../assets/css/CardReproduccion.css";
 
-function CarReproduccionItem({TextoColeccion , imagenColeccion}){
+function CardReproduccionItem({titulo , imagen}){
     return (
         <div>
             <div className="portada-imagen">
-                <img  className="img-reproduccion" src={imagenColeccion} alt="" />
+                <img  className="img-reproduccion" src={imagen} alt="" />
             </div>
             <div>
-                <p className="texto-reproduccion">{TextoColeccion}</p>
+                <p className="texto-reproduccion">{titulo}</p>
             </div>
             
         </div>
@@ -15,4 +15,4 @@ function CarReproduccionItem({TextoColeccion , imagenColeccion}){
 
 }
 
-export default CarReproduccionItem;
+export default CardReproduccionItem;

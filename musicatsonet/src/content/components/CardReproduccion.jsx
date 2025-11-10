@@ -1,19 +1,22 @@
-import CarReproduccionItem from "./CardReproduccionItem.jsx";
-import Mana from "../../assets/img/mana.jfif";
-import Michael from "../../assets/img/michael.jpg";
-import LinkinPark from "../../assets/img/linkinpark.jpg"
+import CardReproduccionItem from "./CardReproduccionItem.jsx";
 import "../../assets/css/CardReproduccion.css";
 
-function CardReproduccion({ TituloColeccion }) {
+function CardReproduccion({ TituloColeccion, listaColeccion }) {
     return (
         <div className="ctn-CardReproduccion">
             <h2>{TituloColeccion}</h2>
 
             <div className="ctn-item-reproduccion">
-                <CarReproduccionItem TextoColeccion={"Maná"} imagenColeccion={Mana} />
-                <CarReproduccionItem TextoColeccion={"Michael Jackson"} imagenColeccion={Michael} />
-                <CarReproduccionItem TextoColeccion={"Linkin Park"} imagenColeccion={LinkinPark} />
-            </div>
+        {listaColeccion.map((element, index) => (
+          <CardReproduccionItem
+            key={index}
+            titulo={element.titulo}
+            imagen={element.imagen}
+          />
+        ))}
+      </div>
+
+
         </div>
 
     )
