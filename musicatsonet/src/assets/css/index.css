@@ -2,6 +2,7 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
+  overflow: hidden;
   background-color: #242424;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,12 +18,17 @@ body {
   margin: 0;
   background: #232a32;
   min-height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden;
+  
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #ffffff;
-    background-color: #ffffff;
+    color: #fff;
+    background-color: #fff;
   }
 }
